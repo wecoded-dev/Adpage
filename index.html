@@ -1,5 +1,169 @@
-
-
+<center>
+<h3>AquaScritp Visitors </h3>
 <!-- Badge Code - Do Not Change The Code -->
 <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="75725b73ab659f8a959800e93d1905ce|6|external|1|#63faff|#ff8ada|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
 <!-- Badge Code End Here -->
+</center>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultra Supreme Luxury Contact Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body {
+      background: radial-gradient(circle at top left, #0d0d0d, #000);
+      color: #fff;
+      font-family: 'Playfair Display', serif;
+      padding: 60px 0;
+      overflow-x: hidden;
+    }
+
+    .lux-form-container {
+      max-width: 780px;
+      margin: auto;
+      padding: 55px;
+      background: linear-gradient(160deg, #111, #1a1a1a);
+      border: 2px solid #ffffff55;
+      border-radius: 45px;
+      box-shadow: 0 0 80px rgba(255, 255, 255, 0.2);
+      transition: all 0.6s ease-in-out;
+      position: relative;
+      animation: slideIn 2s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .lux-form-container::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      border: 2px dashed #fff3;
+      border-radius: 50px;
+      animation: pulse-border 6s infinite ease-in-out;
+      z-index: 0;
+    }
+
+    @keyframes pulse-border {
+      0%, 100% { transform: scale(1); opacity: 0.7; }
+      50% { transform: scale(1.05); opacity: 1; }
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 3.2rem;
+      font-family: 'Great Vibes', cursive;
+      color: #fff;
+      text-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+      position: relative;
+    }
+
+    h2 .material-icons {
+      font-size: 2.5rem;
+      margin-right: 10px;
+      vertical-align: middle;
+      color: #fff;
+      filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    }
+
+    input.form-control,
+    select.form-select,
+    textarea.form-control {
+      background-color: #000 !important;
+      color: #fff !important;
+      border: 1px solid #ffffffaa;
+      border-radius: 20px;
+      padding: 15px 20px;
+      margin-bottom: 25px;
+      transition: all 0.4s ease;
+      font-size: 1.1rem;
+      z-index: 1;
+      position: relative;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #ccc;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      background-color: #000 !important;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+      border-color: #fff;
+      color: #fff !important;
+    }
+
+    .btn-luxury {
+      background: linear-gradient(to right, #ffffff, #d1d1d1);
+      color: #000;
+      font-weight: 700;
+      padding: 15px 40px;
+      border-radius: 40px;
+      border: none;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-luxury:hover {
+      background: linear-gradient(to right, #d1d1d1, #ffffff);
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+      transform: scale(1.05);
+    }
+
+    textarea.form-control {
+      resize: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="lux-form-container">
+      <h2><span class="material-icons">contact_mail</span> Get In Touch</h2>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="91518187-55af-467c-9690-8d7994a937ca">
+
+        <input type="text" name="name" class="form-control" placeholder="Your Full Name" required>
+
+        <input type="email" name="email" class="form-control" placeholder="Your Email Address" required>
+
+        <select name="service_plan" class="form-select" required>
+          <option value="" disabled selected>Select a Subscription Plan</option>
+          <option value="Basic Plan - $9.99/month">Basic Plan - $9.99/month</option>
+          <option value="Premium Plan - $19.99/month">Premium Plan - $19.99/month</option>
+          <option value="Elite Plan - $49.99/month">Elite Plan - $49.99/month</option>
+        </select>
+
+        <textarea name="message" rows="5" class="form-control" placeholder="Tell us what you need..." required></textarea>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-luxury">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.lux-form-container').hide().fadeIn(2000);
+    });
+  </script>
+</body>
+
+</html>
