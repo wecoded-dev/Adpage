@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-chat-app",
+  "version": "1.0.0",
+  "description": "A modern full-stack chat application with React and Node.js",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["chat", "websocket", "react", "nodejs"],
+  "author": "Chat App",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
